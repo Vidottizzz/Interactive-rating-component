@@ -1,0 +1,88 @@
+:root {
+    /* ### Primary */
+
+--Orange: hsl(25, 97%, 53%);
+
+/* ### Neutral */
+
+--White: hsl(0, 0%, 100%);
+--LightGrey: hsl(217, 12%, 63%);
+--MediumGrey: hsl(216, 12%, 54%);
+--DarkBlue: hsl(213, 19%, 18%);
+--VeryDarkBlue: hsl(216, 12%, 8%);
+}
+* {   
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+}
+body {
+    background-color: var(--VeryDarkBlue);
+    color: white;
+    font-family: 'Overpass';
+}
+h1{
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+/* GLOBAL */
+.card-itself {
+    margin: auto;
+    width: 220px;
+    height: 230px;
+    background-color: var(--DarkBlue);
+    margin-top: 40px;
+    border-radius: 16px;
+    padding: 22px;
+}
+/* HEADER */
+.hold-star {
+    background-color: var(--MediumGrey);
+    margin-bottom: 20px;
+    width: 30px;
+height: 30px;
+border-radius: 50%;
+
+
+
+}
+.hold-star .star-icon {
+    width: 12px;
+    padding-left: 3.9px;
+    padding-top: 8.5px;
+   padding-left: 9.45px;
+    
+}
+.description p{ 
+    font-size: 10px;
+    line-height: 15px;
+    color: var(--LightGrey);
+
+}
+.numbers-box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.numbers{
+    background-color: var(--DarkBlue);
+    margin-right: 5px;
+    margin-bottom: 20px;
+    width: 35px;
+height: 35px;
+border-radius: 50%;
+}
+.numbers p {
+    padding-left: 16px;
+    padding-top: 10px;
+font-size: 13px;
+color: var(--LightGrey);
+}
+
+.numbers p:nth-child(1) {
+    padding-left: 13px;
+}
