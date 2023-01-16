@@ -8,8 +8,9 @@
 --White: hsl(0, 0%, 100%);
 --LightGrey: hsl(217, 12%, 63%);
 --MediumGrey: hsl(216, 12%, 54%);
---DarkBlue: hsl(213, 19%, 18%);
---VeryDarkBlue: hsl(216, 12%, 8%);
+--DarkBlue: hsl(214, 16%, 17%);
+--MyDarkBlue: hsl(212, 17%, 20%);
+--VeryDarkBlue: hsl(214, 11%, 12%);
 }
 * {   
         margin: 0;
@@ -41,7 +42,7 @@ h1{
 }
 /* HEADER */
 .hold-star {
-    background-color: var(--MediumGrey);
+    background-color: var(--MyDarkBlue);
     margin-bottom: 20px;
     width: 30px;
 height: 30px;
@@ -51,11 +52,10 @@ border-radius: 50%;
 
 }
 .hold-star .star-icon {
-    width: 12px;
+    width: 11.5px;
     padding-left: 3.9px;
-    padding-top: 8.5px;
+    padding-top: 8.9px;
    padding-left: 9.45px;
-    
 }
 .description p{ 
     font-size: 10px;
@@ -67,9 +67,10 @@ border-radius: 50%;
     display: flex;
     justify-content: space-between;
     margin-top: 15px;
+    
 }
 .numbers{
-    background-color: var(--DarkBlue);
+    background-color: var(--MyDarkBlue);
     margin-right: 5px;
     margin-bottom: 20px;
     width: 35px;
@@ -86,3 +87,15 @@ color: var(--LightGrey);
 .numbers p:nth-child(1) {
     padding-left: 13px;
 }
+.btn button{
+    padding: 7px;
+    letter-spacing: 2px;
+    font-size: 10.5px;
+    color: white;
+    width: 100%;
+    border-radius: 14px;
+    background-color: var(--Orange);
+}
+
+.attribution { font-size: 11px; text-align: center; margin-top: 20px;}
+.attribution a { color: hsl(228, 45%, 44%); }
