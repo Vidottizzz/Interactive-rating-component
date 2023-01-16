@@ -77,11 +77,19 @@ border-radius: 50%;
 height: 35px;
 border-radius: 50%;
 }
+.numbers:hover {
+    background-color: var(--MediumGrey);
+    cursor: pointer;
+}
 .numbers p {
     padding-left: 16px;
     padding-top: 10px;
-font-size: 13px;
-color: var(--LightGrey);
+    font-size: 13px;
+    color: var(--LightGrey);
+}
+.numbers p:hover {
+
+    color: white;
 }
 
 .numbers p:nth-child(1) {
@@ -95,6 +103,10 @@ color: var(--LightGrey);
     width: 100%;
     border-radius: 14px;
     background-color: var(--Orange);
+}
+.btn button:hover {
+cursor: pointer;
+background-color:white;
 }
 
 .attribution { font-size: 11px; text-align: center; margin-top: 20px;}
