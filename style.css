@@ -31,7 +31,33 @@ h1{
 }
 
 /* GLOBAL */
+/* GLOBAL */
+.card-itself {
+    margin: auto;
+    width: 220px;
+    height: 230px;
+    background-color: var(--DarkBlue);
+    margin-top: 40px;
+    border-radius: 16px;
+    padding: 22px;
+}
+/* HEADER */
+.hold-star {
+    background-color: var(--MyDarkBlue);
+    margin-bottom: 20px;
+    width: 30px;
+height: 30px;
+border-radius: 50%;
 
+
+
+}
+.hold-star .star-icon {
+    width: 11.5px;
+    padding-left: 3.9px;
+    padding-top: 8.9px;
+   padding-left: 9.45px;
+}
 .description p{ 
     font-size: 10px;
     line-height: 15px;
@@ -98,34 +124,8 @@ color: var(--Orange);
 
 /* ANOTHER CARD */
 
-/* GLOBAL */
-.card-itself {
-    margin: auto;
-    width: 220px;
-    height: 230px;
-    background-color: var(--DarkBlue);
-    margin-top: 40px;
-    border-radius: 16px;
-    padding: 22px;
-}
-/* HEADER */
-.hold-star {
-    background-color: var(--MyDarkBlue);
-    margin-bottom: 20px;
-    width: 30px;
-height: 30px;
-border-radius: 50%;
 
-
-
-}
-.hold-star .star-icon {
-    width: 11.5px;
-    padding-left: 3.9px;
-    padding-top: 8.9px;
-   padding-left: 9.45px;
-}
-.description p{ 
+.description{ 
     font-size: 10px;
     line-height: 15px;
     color: var(--LightGrey);
@@ -191,6 +191,9 @@ cursor: pointer;
 background-color:white;
 color: var(--Orange);
 }
+#card-atall2 {
+    display: none;
+}
 .card-itself2 {
     margin: auto;
     width: 220px;
@@ -214,6 +217,6 @@ color: var(--Orange);
 }
 
 /* ESCONDER */
-/* .hidden {
+ .hidden {
     display: none;
-} */
+}
