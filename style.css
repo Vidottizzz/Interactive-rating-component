@@ -31,32 +31,7 @@ h1{
 }
 
 /* GLOBAL */
-.card-itself {
-    margin: auto;
-    width: 220px;
-    height: 230px;
-    background-color: var(--DarkBlue);
-    margin-top: 40px;
-    border-radius: 16px;
-    padding: 22px;
-}
-/* HEADER */
-.hold-star {
-    background-color: var(--MyDarkBlue);
-    margin-bottom: 20px;
-    width: 30px;
-height: 30px;
-border-radius: 50%;
 
-
-
-}
-.hold-star .star-icon {
-    width: 11.5px;
-    padding-left: 3.9px;
-    padding-top: 8.9px;
-   padding-left: 9.45px;
-}
 .description p{ 
     font-size: 10px;
     line-height: 15px;
@@ -107,7 +82,138 @@ border-radius: 50%;
 .btn button:hover {
 cursor: pointer;
 background-color:white;
+color: var(--Orange);
 }
 
+/* ESCONDER */
+/* .hidden {
+    display: none;
+} */
 .attribution { font-size: 11px; text-align: center; margin-top: 20px;}
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution a { color: hsl(228, 45%, 44%); };
+
+
+
+
+
+/* ANOTHER CARD */
+
+/* GLOBAL */
+.card-itself {
+    margin: auto;
+    width: 220px;
+    height: 230px;
+    background-color: var(--DarkBlue);
+    margin-top: 40px;
+    border-radius: 16px;
+    padding: 22px;
+}
+/* HEADER */
+.hold-star {
+    background-color: var(--MyDarkBlue);
+    margin-bottom: 20px;
+    width: 30px;
+height: 30px;
+border-radius: 50%;
+
+
+
+}
+.hold-star .star-icon {
+    width: 11.5px;
+    padding-left: 3.9px;
+    padding-top: 8.9px;
+   padding-left: 9.45px;
+}
+.description p{ 
+    font-size: 10px;
+    line-height: 15px;
+    color: var(--LightGrey);
+text-align: center;
+}
+.selected {
+
+    padding: 5px 7px;
+    border-radius: 12px;
+    background-color: var(--MyDarkBlue);
+    font-size: 10px;
+    margin-left: 53px;
+    color: var(--Orange);
+ 
+}
+.second-h1 {
+    padding-left: 60px;
+    padding-top: 20px;
+}
+.numbers-box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    
+}
+.numbers{
+    background-color: var(--MyDarkBlue);
+    margin-right: 5px;
+    margin-bottom: 20px;
+    width: 35px;
+height: 35px;
+border-radius: 50%;
+}
+.numbers:hover {
+    background-color: var(--MediumGrey);
+    cursor: pointer;
+}
+.numbers p {
+    padding-left: 16px;
+    padding-top: 10px;
+    font-size: 13px;
+    color: var(--LightGrey);
+}
+.numbers p:hover {
+
+    color: white;
+}
+
+.numbers p:nth-child(1) {
+    padding-left: 13px;
+}
+.btn button{
+    padding: 7px;
+    letter-spacing: 2px;
+    font-size: 10.5px;
+    color: white;
+    width: 100%;
+    border-radius: 14px;
+    background-color: var(--Orange);
+}
+.btn button:hover {
+cursor: pointer;
+background-color:white;
+color: var(--Orange);
+}
+.card-itself2 {
+    margin: auto;
+    width: 220px;
+    height: 210px;
+    background-color: var(--DarkBlue);
+    margin-top: 40px;
+    border-radius: 16px;
+    padding: 22px;
+}
+/* HEADER */
+.hold-thanku {
+   
+    margin-bottom: 10px;
+
+}
+.hold-thanku .thankyou-icon {
+    width: 100px;
+    padding-top: 2px;
+   padding-left: 55px;
+   margin: auto;
+}
+
+/* ESCONDER */
+/* .hidden {
+    display: none;
+} */
