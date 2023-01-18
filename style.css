@@ -156,7 +156,7 @@ text-align: center;
     margin-right: 5px;
     margin-bottom: 20px;
     width: 35px;
-height: 35px;
+    height: 35px;
 border-radius: 50%;
 }
 .numbers:hover {
@@ -220,3 +220,51 @@ color: var(--Orange);
  .hidden {
     display: none;
 }
+
+/* teste radio button */
+
+input[type="radio"] {
+    margin-bottom: 0px;
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+    border: 0 solid;
+    background-color: var(--MyDarkBlue);
+    -webkit-appearance: none; /*to disable the default appearance of radio button*/
+    -moz-appearance: none;
+  }
+  input[type="radio"]:first-child {
+    margin-right: 11px;
+
+  }
+  
+  input[type="radio"]:focus { /*no need, if you don't disable default appearance*/
+    outline: none; /*to remove the square border on focus*/
+  }
+  
+  input[type="radio"]:checked { /*no need, if you don't disable default appearance*/
+    background-color: var(--Orange);
+  }
+  
+  input[type="radio"]:checked ~ span:first-of-type {
+    color: white;
+  }
+   span:hover {
+    cursor: pointer
+  }
+  input[type="radio"]:hover {
+    cursor: pointer
+  }
+  
+  label span:first-of-type {
+    position: relative;
+    left: 12.75px;
+    top: -32px;
+    font-size: 15px;
+    color: var(--MediumGrey);
+  }
+  
+  label span {
+    position: relative;
+    top: -12px;
+  }
