@@ -250,10 +250,14 @@ input[type="radio"] {
     color: white;
   }
    span:hover {
-    cursor: pointer
+    cursor: pointer;
+}
+input[type="radio"]:hover {
+    cursor: pointer;
   }
-  input[type="radio"]:hover {
-    cursor: pointer
+  label {
+    height: 10px;
+    margin-bottom: 50px;
   }
   
   label span:first-of-type {
