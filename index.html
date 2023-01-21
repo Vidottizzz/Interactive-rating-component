@@ -29,36 +29,40 @@
         </p>
         </div>
         <div class="numbers-box">
-          <label>
-            <input type="radio" name="options"/>
-            <span>1</span>
-          </label>
-          <br/>
-          <label>
-            <input type="radio" name="options"/>
-            <span>2</span>
-          </label>
-          <br/>
-          <label>
-            <input type="radio" name="options"/>
-            <span>3</span>
-          </label>
-          <br/>
-          <label>
-            <input type="radio" name="options"/>
-            <span>4</span>
-          </label>
-          <br/>
-          <label>
-            <input type="radio" name="options"/>
-            <span>5</span>
-          </label>
+          <form name="form1" action="#" onsubmit="return validateForm()" method="dialog"> 
+            <label>
+              <input type="radio" name="options" class="radios" id="question1" value="questionL1"/>
+              <span>1</span>
+            </label>
+            <br/>
+            <label>
+              <input type="radio" name="options" class="radios" id="question2" value="questionL2"/>
+              <span>2</span>
+            </label>
+            <br/>
+            <label>
+              <input type="radio" name="options" class="radios" id="question3" value="questionL3"/>
+              <span>3</span>
+            </label>
+            <br/>
+            <label>
+              <input type="radio" name="options" class="radios" id="question4" value="questionL4"/>
+              <span>4</span>
+            </label>
+            <br/>
+            <label>
+              <input type="radio" name="options" class="radios" id="question5" value="questionL5"/>
+              <span>5</span>
+            </label>
+            
+            <input type="submit" id="prevent" value="SUBMIT">
+            </form>
+       
+            
+           
         </div>
       </main>
       <footer>
-        <div class="btn">
-        <button onClick="esconde()">SUBMIT</button>
-        </div>
       </footer>
     </div>
     </div>
@@ -105,7 +109,7 @@
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://github.com/Vidottizzz" target="_blank">Guilherme Vidotti</a>.
   </div>
   <script type="text/javascript" src="/script.js"></script>
 </body>

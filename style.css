@@ -115,7 +115,7 @@ color: var(--Orange);
 /* .hidden {
     display: none;
 } */
-.attribution { font-size: 11px; text-align: center; margin-top: 20px;}
+.attribution { font-size: 11px; text-align: center; margin-top: 22.5px;}
 .attribution a { color: hsl(228, 45%, 44%); };
 
 
@@ -272,3 +272,31 @@ input[type="radio"]:hover {
     position: relative;
     top: -12px;
   }
+  a:hover {
+  color: var(--Orange);
+  }
+  form {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    
+  }
+  .submit-block {
+    display: block ;
+  }
+  #prevent {
+    padding: 6px;
+    letter-spacing: 2px;
+    font-size: 10.5px;
+    color: white;
+    width: 220px;
+    border-radius: 14px;
+    background-color: var(--Orange);
+    position: absolute;
+    top: 275px;
+  }
+  #prevent:hover {
+    cursor: pointer;
+    background-color:white;
+    color: var(--Orange);
+    }
